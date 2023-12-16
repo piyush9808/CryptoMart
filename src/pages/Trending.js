@@ -25,7 +25,7 @@ const Trending = () => {
             width="1em"
             height="1em"
             viewBox="0 0 24 24"
-            className="w-full h-full fill-cyan"
+            className="w-full h-full fill-[#FFD700]"
             style={{
               msTransform: "rotate(360deg)",
               WebkitTransform: "rotate(360deg)",
