@@ -30,11 +30,11 @@ const SaveBtn = ({ data }) => {
                           ? "fill-#FFD700."
                           : "fill-gray-100"
                       }
-                       hover:fill-cyan`}
+                       hover:fill-#FFD700`}
         width="30"
         height="30"
         viewBox="0 0 30 30"
-        fill="cyan"
+        fill="#FFD700"
         xmlns="http://www.w3.org/2000/svg"
       >
         <g clipPath="url(#clip0_16_420)">
@@ -161,7 +161,7 @@ const Saved = () => {
             </tbody>
           </table>
         ) : (
-          <h1 className="min-h-[60vh] text-lg text-cyan flex items-center justify-center">
+          <h1 className="min-h-[60vh] text-lg text-[#FFD700] flex items-center justify-center">
             There is no data to display!
           </h1>
         )}
@@ -176,7 +176,7 @@ const Saved = () => {
             width="1em"
             height="1em"
             viewBox="0 0 24 24"
-            className="w-full h-full fill-cyan"
+            className="w-full h-full fill-[#FFD700]"
             style={{
               msTransform: "rotate(360deg)",
               WebkitTransform: "rotate(360deg)",

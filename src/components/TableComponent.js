@@ -35,6 +35,7 @@ const SaveBtn = ({ data }) => {
         height="30"
         viewBox="0 0 30 30"
         fill="[#FFD700]"
+        bg="[#FFD700]"
         xmlns="http://www.w3.org/2000/svg"
       >
         <g clipPath="url(#clip0_16_420)">
